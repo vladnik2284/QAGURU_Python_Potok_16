@@ -10,3 +10,8 @@ def browser_settings():
     driver_options = webdriver.ChromeOptions()
     driver_options.page_load_strategy = 'eager'
     browser.config.driver_options = driver_options
+    # from selenium import webdriver
+    # from selenium.webdriver.chrome.options import Options
+    # o = Options()
+    # o.add_experimental_option("detach", True)
+    # driver = webdriver.Chrome(options=o)
